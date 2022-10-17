@@ -1,0 +1,6 @@
+pagesBook = int(input())
+pagesPerHour = int(input())
+daysNeeded = int(input())
+time = int(pagesBook / pagesPerHour)
+days = int(time / daysNeeded)
+print(days)
